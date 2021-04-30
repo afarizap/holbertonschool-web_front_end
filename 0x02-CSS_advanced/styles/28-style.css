@@ -250,7 +250,7 @@ ul.row {
     color: var(--color-primary);
 }
 .header {
-    padding: var(--section-header-padding);
+    padding: var(--header-padding);
 }
 .header-logo {
     position: var(--header-logo-position);
@@ -258,6 +258,6 @@ ul.row {
 .header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    vertical-align: var(--header-logo-link-top);
-    text-align: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
