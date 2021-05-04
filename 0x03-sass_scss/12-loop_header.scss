@@ -1,9 +1,6 @@
 /* creates H* tags, where ‘*’ is the size of the font used */
-h1 {
-  font-size: 1px; }
-
 @for $i from 1 throught 5 {
   h#{$i} {
-    font-size: #{$i};
+    font-size: #{$i}px;
   }
 }
