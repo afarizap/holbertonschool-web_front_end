@@ -1,9 +1,8 @@
 /*margin mixing*/
-body {
+@mixin body {
   margin-left: 10px;
   margin-right: 10px; }
 
-div {
+@mixin div {
   margin-left: 15px;
   margin-right: 15px; }
-  
