@@ -1,10 +1,10 @@
 /*margin mixing*/
-@mixin margins(prop) {
+@mixin margins($prop) {
   margin-left: $prop;
   margin-right: $prop; }
 
 body {
-  margins(10px); }
+  @include margins(10px); }
 
 div {
-  margins(15px); }
+  @include margins(15px); }
