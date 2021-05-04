@@ -2,12 +2,12 @@ $TextColor: #3D3D3D;
 $BackgroundColor: #6D6D6D;
 
 body {
-  color: $TextColor
-  background-color: $BackgroundColor
+  color: $TextColor;
+  background-color: $BackgroundColor;
 }
 p {
-  color> $TextColor
+  color> $TextColor;
 }  
 h2 {
-  background-color: $BackgroundColor
+  background-color: $BackgroundColor;
 }
