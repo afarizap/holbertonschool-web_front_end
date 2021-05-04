@@ -1,8 +1,13 @@
-$TextColor: #3D3D3D
-$BackgroundColor: #6D6D6D
-body
+$TextColor: #3D3D3D;
+$BackgroundColor: #6D6D6D;
+
+body {
   color: $TextColor
   background-color: $BackgroundColor
-
-p
+}
+p {
   color> $TextColor
+}  
+h2 {
+  background-color: $BackgroundColor
+}
