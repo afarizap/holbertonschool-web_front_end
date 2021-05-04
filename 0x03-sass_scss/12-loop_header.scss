@@ -2,14 +2,8 @@
 h1 {
   font-size: 1px; }
 
-h2 {
-  font-size: 2px; }
-
-h3 {
-  font-size: 3px; }
-
-h4 {
-  font-size: 4px; }
-
-h5 {
-  font-size: 5px; }
+@for $i from 1 throught 5 {
+  h#{$i} {
+    font-size: #{$i};
+  }
+}
