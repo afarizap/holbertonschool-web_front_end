@@ -373,7 +373,7 @@
   
 /* Section Latest news ============================= */
 
-.selection-latest-news .row {
+.section-latest-news {
   flex-direction: row-reverse;
 }
 
