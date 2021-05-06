@@ -379,7 +379,7 @@
 
   /* Section ABOUT US ============================= */
 
-  .section-about-us .col- {
+  .section-about-us div[class^=".col-"] {
     align-self: center;
   }
 
